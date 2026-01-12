@@ -1,0 +1,70 @@
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Login box */
+.login-container {
+    width: 320px;
+    margin: 100px auto;
+    padding: 25px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e41c2d;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Logo image */
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Heading */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #e41c2d;
+}
+
+/* Input fields */
+.login-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Button */
+.login-container button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #e41c2d;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b30000;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.login-container button:hover {
+    background-color: #c41624;
+}
+
+/* Active (clicked) effect */
+.login-container button:active {
+    background-color: #a1121d;
+    transform: scale(0.98);
+}

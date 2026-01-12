@@ -1,0 +1,62 @@
+
+  .dollar{
+    color:green;
+  }
+
+
+
+.nike{
+  font-weight:bold;
+}
+
+.free{
+  font-weight:lighter;
+}
+
+.add{
+  background-color:yellow;
+  color:black;
+  width:200px;
+  height:36px;
+  border-style:solid;
+  border-width:1px;
+  border-radius:200px;
+  cursor:pointer;
+  margin-right:10px;
+  margin-block: 10px;
+  transition:background-color 0.2s,
+  color 0.1s, box-shadow 0.2s;
+  font-weight:bold;
+}
+
+.add:hover{
+  background-color:rgb(216, 216, 71);
+    box-shadow: 5px 5px  10px rgba(0,0,0,14);
+}
+
+.add:active{
+  background-color:rgb(145, 137, 137);
+}
+
+.buy{
+  background-color:rgb(255, 166, 0);
+  height:36px;
+  width:200px;
+  border-width:1px;
+  border-radius:200px;
+  border-style:solid;
+  transition:background-color 0.1s, box-shadow 0.1s;
+  font-weight:bold;
+}
+
+.buy:hover{
+  background-color:rgb(205, 140, 21);
+  box-shadow: 5px 5px 10px rgba(0,0,0,14);
+
+}
+
+.buy:active{
+  background-color:rgb(162, 145, 113);
+}
+
+
